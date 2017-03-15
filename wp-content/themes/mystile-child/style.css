@@ -1,0 +1,152 @@
+/*
+ Theme Name:   Mystile Child
+ Theme URI:    http://example.com/mystile-child/
+ Template:     mystile
+*/
+
+
+/* =Imports styles from the parent theme
+-------------------------------------------------------------- */
+@import url('../mystile/style.css');
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+/* remove the top bar*/
+#top {display: none;}
+
+
+/*logo */
+#header #logo {
+	margin: -2.5em 0.8em -1.5em 0em; }
+#header #logo img{
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	width: 100%;
+	 }
+
+/*main menu position */
+@media only screen and (min-width: 768px) {
+#navigation {
+float: left;
+width: 100%;
+position: relative;
+margin-top: -0.5em;
+}
+#navigation ul.nav {
+clear: left;
+float: left;
+list-style: none;
+margin: 0;
+padding: 0;
+position: relative;
+left: 50%;
+text-align: center;
+}
+#navigation ul.nav li {
+display: block;
+float: left;
+list-style: none;
+margin: 0;
+padding: 0;
+position: relative;
+right: 50%;
+}
+#navigation ul.nav li li {
+right: auto;
+text-align: left;
+}
+
+
+
+/*border custom, moving main content up*/
+#header { border: none; margin-bottom: 0.8em;}
+
+/* edit the heading */
+h2 {display: none; }
+
+
+/*meta slider edit*/
+/*change the caption font size*/
+
+
+.textwrapright {float:right; margin: 10px; width:480px;  height:360px;}
+.textwrapleft {float: left; margin: 10px;}
+
+img.attachment-shop_catalog.size-shop_catalog.wp-post-image {
+    width: 300px;
+}
+
+img.attachment-shop_single.size-shop_single.wp-post-image {
+    width: 450px;
+}
+
+ul.products {
+   margin-bottom: 0px;
+}
+
+
+
+
+/* Width of the timestamp in post */
+@media only screen and (min-width: 768px) {
+  .type-post .meta {
+    display: block;
+    width: 9%;
+    float: left;
+  }
+}
+
+/*full width logo and slider */
+
+ #wrapper {
+        background: transparent !important;
+}
+
+body {
+
+        background-image: url('http://orientalproduce.com.au/wp-content/uploads/2017/03/10.jpg');
+        background-position: top center;
+        background-repeat: repeat;
+        background-attachment: fixed;
+}
+
+/*#footer {
+        background: transparent !important;
+}*/
+
+/*.footer-wrap {
+        background: transparent !important;
+        border-radius: 30px! important;
+}*/
+
+#top {
+        background: transparent !important;
+        border-radius: 30px;
+}
+
+/*From this part is the edit for the information at the front*/
+/*div edit*/
+#front-info {
+	display: block;
+	background: #f7f7f7;
+	padding: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+/*Table edit */
+table th, table td {
+    	text-align: center;
+	border: none;
+	padding-bottom: 0px;
+
+}
+table { table-layout: fixed; }
+td { width: 33%; }
+/*Front image */
+#front img {
+padding: 0;
+border: none;
+/*border-radius: 10px;*/
+margin: none;
+}
