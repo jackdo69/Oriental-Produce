@@ -88,14 +88,7 @@ ul.products {
 
 
 
-/* Width of the timestamp in post */
-@media only screen and (min-width: 768px) {
-  .type-post .meta {
-    display: block;
-    width: 9%;
-    float: left;
-  }
-}
+
 
 /*full width logo and slider */
 
@@ -150,3 +143,5 @@ border: none;
 /*border-radius: 10px;*/
 margin: none;
 }
+
+

@@ -490,6 +490,7 @@ right: -30px;
 }
 
 .wcps-container  .wcps-items-title a {
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: bold;
   line-height: normal;
